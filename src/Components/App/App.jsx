@@ -1,4 +1,5 @@
 import React from "react";
+import NavBar from "../NavBar/NavBar";
 import './App.css';
 
 class App extends React.Component{
@@ -7,7 +8,7 @@ class App extends React.Component{
     return (
         <div className="app">
             {/* {Nav section} */}
-            <h1>this is the navbar</h1>
+            <NavBar/>
             {/* {landing page} */}
             {/* {footer} */}
         </div>
