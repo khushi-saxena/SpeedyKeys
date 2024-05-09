@@ -1,5 +1,6 @@
 import React from "react";
 import logo from './../../Assets/logo.png';
+import './NavBar.css';
 
 
 const NavBar = () => {
@@ -7,7 +8,7 @@ const NavBar = () => {
    <div className="nav-container">
      <div className=" nav-left">
         <img className="flash-logo" src ={logo} alt ="logo"/>
-        <p className="flash-logo-text">FlashType</p>
+        <p className="flash-logo-text">SpeedyKeys</p>
      
      </div>
    
