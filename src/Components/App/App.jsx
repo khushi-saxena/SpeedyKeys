@@ -2,6 +2,7 @@ import React from "react";
 import NavBar from "../NavBar/NavBar";
 import './App.css';
 import Landing from "../Landing/Landing";
+import Footer from "../Footer/Footer";
 
 class App extends React.Component{
    render(){
@@ -13,6 +14,7 @@ class App extends React.Component{
             {/* {landing page} */}
             <Landing/>
             {/* {footer} */}
+            <Footer/>
         </div>
     )
     

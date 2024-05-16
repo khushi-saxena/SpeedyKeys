@@ -11,16 +11,18 @@ const NavBar = () => {
         <p className="flash-logo-text">SpeedyKeys</p>
      
      </div>
-       <div className="nav-right">
-        <a
-          target="_blank"
-          className="nav-connect-link"
-          href="https://www.linkedin.com/in/khushi-saxena/"
-          rel="noreferrer"
-          >
-            Connect
-          </a>
-       </div>
+       
+     {/* <div className="nav-right">
+       <a
+         target="_blank"
+         className="nav-connect-link"
+         href="https://www.linkedin.com/in/khushi-saxena/"
+         rel="noreferrer"
+         >
+           Connect
+         </a>
+       </div>*/}
+    
    </div>
   );
 }
